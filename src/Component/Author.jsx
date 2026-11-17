@@ -38,7 +38,7 @@ export default function Author() {
     },
   ];
   return (
-    <div className="flex flex-col md:justify-start justify-center mt-50 ">
+    <div className="flex flex-col md:justify-start justify-center md:mt-50 mt-25">
       <div className=" " data-aos="fade-right">
         <h5 className="text-4xl font-bold mb-5">About Me</h5>
 
@@ -57,7 +57,7 @@ export default function Author() {
         </p>
       </div>
 
-      <div className="md:w-[75%] w-full my-50 max-md:w-full">
+      <div className="md:w-[75%] w-full md:my-50 my-25 max-md:w-full">
         <h5 className=" text-4xl font-bold mb-10">My Tech Stack</h5>
         <div className="flex justify-between items-center  ">
           {stacksIcon.map((Icon) => {
@@ -66,7 +66,7 @@ export default function Author() {
         </div>
       </div>
 
-      <div className="w-[75%] mt-22.5 pb-75 max-md:w-full ">
+      <div className="w-[75%] md:mt-22.5 mt-10 md:pb-75 pb-20 max-md:w-full ">
         <h5 className="text-4xl font-bold mb-10">Experience</h5>
         <div className=" flex flex-col gap-7">
           {experiences.map((experience) => {

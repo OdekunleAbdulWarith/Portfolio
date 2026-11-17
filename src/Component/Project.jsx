@@ -20,12 +20,12 @@ export default function Project() {
               <div className=" py-5 px-2 flex flex-col gap-5">
                 <h5 className="text-xl font-semibold">{project.title}</h5>
                 <p className="text-md leading-6.25">{project.shortDetail}</p>
-                <div className="flex gap-3 items-center">
+                <div className="grid grid-cols-3 gap-3 items-center">
                   {project.techStack.map((stack, ind) => {
                     return (
                       <h6
                         key={ind}
-                        className="text-md bg-neutral-300 px-2 rounded-xl"
+                        className="text-[15px] bg-neutral-300 p-2 text-center rounded text-nowrap"
                       >
                         {stack}
                       </h6>

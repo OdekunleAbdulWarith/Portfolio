@@ -3,7 +3,7 @@ import Author from "../Component/Author";
 import Project from "../Component/Project";
 export default function Home() {
   return (
-    <div className="w-full px-5 lg:px-100 md:px-20 flex flex-col my-80">
+    <div className="w-full px-5 lg:px-100 md:px-20 flex flex-col md:my-80 mt-50">
       <FirstSection />
       <Author />
       <Project/>

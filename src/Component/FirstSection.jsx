@@ -56,7 +56,7 @@ export default function FirstSection() {
       </div>
 
       <div className="icons flex gap-5 justify-start ">
-        <a href="https://github.com/raveroses" target="_blank">
+        <a href="https://github.com/OdekunleAbdulWarith" target="_blank">
           <FaGithub className="text-2xl font-medium" />
         </a>
         <a href="linkedin.com/in/diamond-stack-62a0b62a7/" target="_blank">
